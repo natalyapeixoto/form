@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+    font-family: 'Open sans';
+    font-size: 14px;
+}
+
+form{
+    margin-top: 50px;
+    width: 1400px;
+    text-align: center;
+}
+ 
+.multiple{
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 30px;
+}
+
+.multiple_under{
+    display: inline-block;
+    text-align: left;
+}
+
+label[for='name']{
+    display:inline-block;
+    width: 25%;
+    text-align:right;
+}
+input[name='name']{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius:3px;
+}
+label[for='select']{
+    display:inline-block;
+    width: 25%;
+    text-align:right; 
+}
+select{
+    padding: 5px;
+    border-radius:3px;
+    display:inline-block;
+    width: 25%;
+    text-align:right;
+    margin-top:10px;
+}
+label[for='number']{
+    display:inline-block;
+    width: 25%;
+    text-align:right;
+}
+input[name='number']{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius:3px;
+}
+label[for='comment']{
+    display:inline-block;
+    width: 25%;
+    text-align:right;
+    vertical-align: top;
+}
+textarea{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius:3px;
+}
+a{
+    display: inline-block;
+    background-color: #9013FE;
+    color: white;
+    width: 120px;
+    text-align: center;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 5px;
+    border-color:#3A006D;
+    text-decoration: none;
+}
+.caixa-branca{
+    display: inline-block;
+    width: 9%;
+}
