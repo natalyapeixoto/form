@@ -14,14 +14,14 @@
 
     <form action='obrigada.html' method='GET'> 
             
-            <label for='name'>Nome</label>
-            <input type='text' name='name' placeholder="escreva seu nome"> <br>
-            <label for='name'>Senha</label>
-            <input type='password'name='name' placeholder="digite sua senha"> <br>
+            <label for='name' class='multiple'>Texto<p>Text Input</p></label>
+            <input type='text' name='name' class='multiple_under' > <br>
+            <label for='name' class='multiple'>Senha<p>Password</p></label>
+            <input type='password'name='name' class='multiple_under' > <br>
         
 
             <div class='multiple'>
-                    <label for='radio'>Escolha uma opção</label> <br>
+                    <label for='radio'>Escolha multiplas opções<p>Checkbox</p></label> <br>
                </div>
    
                <div class='multiple_under'>
@@ -31,12 +31,9 @@
                    <input type='checkbox' name='radio'><label for='choice'>Super velocidade </label><br>
                </div>
 
-            <br> 
-            <br>
-            <br>
 
             <div class='multiple'>
-                 <label for='radio'>Escolha uma opção</label> <br>
+                 <label for='radio'>Escolha uma opção<p>Radio Buttons</p></label> <br>
             </div>
 
             <div class='multiple_under'>
@@ -46,38 +43,35 @@
                 <input type='radio' name='radio'><label for='choice'>Super velocidade </label><br>
             </div>
 
-        
-            <br>
-            <label for='select'> Selecione Dropdown </label>
-                <select name='assunto'>
+    
+            <label for='select' class='multiple'> Selecione Dropdown<p>Select Dropdown</p> </label>
+                <select name='assunto' class='multiple_under'>
                         <option value="">Caramba</option>
                         <option value="">Caraca</option>
                         <option value="">Cacilds</option>
                         <option value="">COROI</option>
                 </select>
        
-
-        
             <br>
-            <label for='number'>Escolha um valor</label>
+            <div class='multiple'>
+                    <label for='number'>Escolha um valor<p>Multiple values</p></label>
+            </div>
+            <div class='multiple_under'> 
             <input type='number' name='number'>
-        
+            </div>
 
             <br>
-            <div class='multiple'></div>
-            <label for='comment' >Faça um comentário: </label>
-            <textarea name='comment'></textarea>
+            <div class='multiple'>
+            <label for='comment' >Faça um comentário: <p>Comments</p></label>
+            </div>
+            <textarea rows="10" name='comment'class='multiple_under'></textarea>
     
-
             <br> 
-            <div class='caixa-branca'></div>
-            <a href='#'> Submit</a>
-
-
-    
-
-
-
+            
+            <div class='cx-btn'>
+                <a href='#'class='btn_under multiple'> Refresh</a>
+                <a href='#' class='btn_under multiple_under'> Submit</a>
+            </div>
 
     </form>
     

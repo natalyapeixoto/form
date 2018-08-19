@@ -8,75 +8,41 @@ body{
 }
 
 form{
-    margin-top: 50px;
-    width: 1400px;
-    text-align: center;
+    width: 50%;
+    margin: 100px 550px;
 }
  
 .multiple{
     display:inline-block;
+    width: 30%;
     vertical-align: top;
-    margin-top: 30px;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 25px;
 }
 
 .multiple_under{
+    width: 50%;
     display: inline-block;
     text-align: left;
+    margin-bottom: 25px;
+    
 }
 
-label[for='name']{
-    display:inline-block;
-    width: 25%;
-    text-align:right;
+input[type='text'], input[type='number'], input[type='password'], select[name='assunto']{
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    width: 310px;
+    height: 31px;  
 }
-input[name='name']{
-    display: inline-block;
-    width: 25%;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-    border-radius:3px;
+
+p{
+    margin: 0px;
+    font-weight: lighter;
+    font-size: 10px;
+    color: #999999;
 }
-label[for='select']{
-    display:inline-block;
-    width: 25%;
-    text-align:right; 
-}
-select{
-    padding: 5px;
-    border-radius:3px;
-    display:inline-block;
-    width: 25%;
-    text-align:right;
-    margin-top:10px;
-}
-label[for='number']{
-    display:inline-block;
-    width: 25%;
-    text-align:right;
-}
-input[name='number']{
-    display: inline-block;
-    width: 25%;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-    border-radius:3px;
-}
-label[for='comment']{
-    display:inline-block;
-    width: 25%;
-    text-align:right;
-    vertical-align: top;
-}
-textarea{
-    display: inline-block;
-    width: 25%;
-    text-align: center;
-    margin: 5px;
-    padding: 5px;
-    border-radius:3px;
-}
+
 a{
     display: inline-block;
     background-color: #9013FE;
@@ -89,7 +55,44 @@ a{
     border-color:#3A006D;
     text-decoration: none;
 }
-.caixa-branca{
-    display: inline-block;
-    width: 9%;
+.btn_under{
+    width: 20%;
+    text-align: center;
+}
+a.multiple{
+    background-color: orange;
+}
+
+.cx-btn{
+    margin-left: 115px;
+}
+
+input[type='checkbox']{
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid #cacece;
+    padding: 10px;
+    border-radius: 3px; 
+}
+label[for='choice']{
+    margin-left: 15px;
+    vertical-align: top;
+}
+input[type='radio']{
+    -webkit-appearance: none;
+    background-color: white;
+    border: 1px solid #cacece;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+input[type='number']{
+    width: 70px;  
+    padding: 5px;  
+}
+
+textarea{
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    width: 310px;
 }
