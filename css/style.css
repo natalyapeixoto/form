@@ -1,17 +1,14 @@
 *{
     box-sizing: border-box;
 }
-
 body{ 
     font-family: 'Open sans';
     font-size: 14px;
 }
-
 form{
     width: 50%;
     margin: 100px auto;
 }
- 
 .multiple{
     display:inline-block;
     width: 30%;
@@ -20,29 +17,24 @@ form{
     margin-right: 10px;
     margin-bottom: 25px;
 }
-
 .multiple_under{
     width: 50%;
     display: inline-block;
     text-align: left;
     margin-bottom: 25px;
-    
 }
-
 input[type='text'], input[type='number'], input[type='password'], select[name='assunto']{
     border: 1px solid #CCCCCC;
     border-radius: 4px;
     width: 310px;
     height: 31px;  
 }
-
 p{
     margin: 0px;
     font-weight: lighter;
     font-size: 10px;
     color: #999999;
 }
-
 a{
     display: inline-block;
     background-color: #9013FE;
@@ -62,11 +54,9 @@ a{
 a.multiple{
     background-color: orange;
 }
-
 .cx-btn{
     margin-left: 32%;
 }
-
 input[type='checkbox']{
     -webkit-appearance: none;
     background-color: white;
@@ -85,12 +75,10 @@ input[type='radio']{
     padding: 10px;
     border-radius: 50px;
 }
-
 input[type='number']{
     width: 70px;  
     padding: 5px;  
 }
-
 textarea{
     border: 1px solid #CCCCCC;
     border-radius: 4px;
